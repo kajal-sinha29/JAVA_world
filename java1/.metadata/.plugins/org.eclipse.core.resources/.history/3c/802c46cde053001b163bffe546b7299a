@@ -1,0 +1,34 @@
+package Chap1;
+
+public class Chn {
+	
+	public static void main(String args[])
+	{
+		
+		int n=5;
+		
+		// FOR C
+		for(int i=1;i<=n;i++)
+		{
+			System.out.print("* ");
+		}
+		for(int j=1;j<=n;j++)
+		{
+			System.out.println("*");
+		}
+		for(int k=n;k<=n+n;k++)
+		{
+			System.out.print("* ");
+		} 
+		
+		//FOR H
+		
+		for(int i = n+3;i<=2*n+3;i++)
+		{
+			System.out.print("*");
+		}
+		
+		
+	}
+
+}

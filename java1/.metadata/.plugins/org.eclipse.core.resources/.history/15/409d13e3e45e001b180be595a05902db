@@ -1,0 +1,22 @@
+package Thread;
+
+public class String extends Thread{
+	
+	public void run()
+	{
+		if(Thread.currentThread().equals("Thread-0"));
+		System.out.println(Thread.currentThread()+"hi");
+		if(Thread.currentThread().equals("Thread-1"));
+		System.out.println(Thread.currentThread()+"hello");
+		
+	}
+	
+	public static void main(String args[])
+	{
+		String s1 = new String();
+		s1.start();
+		String s2 = new String();
+		s2.start();
+	}
+
+}

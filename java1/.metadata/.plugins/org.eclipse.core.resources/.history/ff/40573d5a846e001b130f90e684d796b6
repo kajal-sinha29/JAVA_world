@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>This is login page...!!!!!!!</title>
+</head>
+<body bgcolor = "pink">
+
+<form action = "Loginservlet" method = "post">
+<h2>ENTER YOUR DETAILS HERE.....!!!!!!</h2>
+<p><h3>Mobile no<input type = "text" name = "mob_no"></h3><br>
+<p><h3>Password<input type = "text" name = "pwd"></h3>
+<input type = "submit" value = "SUBMIT">
+
+</form>
+
+</body>
+</html>

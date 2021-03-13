@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Login_Page/build/ojdbc6.jar&apos;" deleteContents="false" description="Delete resource &apos;Login_Page/build/ojdbc6.jar&apos;" element1="/Login_Page/build/ojdbc6.jar" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1613038321648"/>&#x0A;<refactoring comment="Delete resource &apos;Dynamic_Login/WebContent/WEB-INF/lib/ojdbc6.jar&apos;" deleteContents="false" description="Delete resource &apos;Dynamic_Login/WebContent/WEB-INF/lib/ojdbc6.jar&apos;" element1="/Dynamic_Login/WebContent/WEB-INF/lib/ojdbc6.jar" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1613064345432"/>
+</session>

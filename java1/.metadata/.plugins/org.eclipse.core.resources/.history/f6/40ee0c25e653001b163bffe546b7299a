@@ -1,0 +1,25 @@
+package Chap1;
+
+public class Cake {
+	
+	public static void main(String args[])
+	{
+		int n  = 11;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

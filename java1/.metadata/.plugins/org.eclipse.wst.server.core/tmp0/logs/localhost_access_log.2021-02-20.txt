@@ -1,0 +1,10 @@
+127.0.0.1 - - [20/Feb/2021:11:56:22 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [20/Feb/2021:11:56:36 +0530] "GET /demo4jsp_jdbc/login.jsp HTTP/1.1" 200 343
+0:0:0:0:0:0:0:1 - - [20/Feb/2021:11:56:57 +0530] "POST /demo4jsp_jdbc/validate.jsp HTTP/1.1" 200 211
+0:0:0:0:0:0:0:1 - - [20/Feb/2021:11:57:00 +0530] "GET /demo4jsp_jdbc/Logout.jsp HTTP/1.1" 404 740
+0:0:0:0:0:0:0:1 - - [20/Feb/2021:13:37:08 +0530] "GET /demo4jsp_jdbc/login.jsp HTTP/1.1" 200 343
+0:0:0:0:0:0:0:1 - - [20/Feb/2021:13:37:20 +0530] "POST /demo4jsp_jdbc/validate.jsp HTTP/1.1" 200 211
+0:0:0:0:0:0:0:1 - - [20/Feb/2021:13:37:27 +0530] "GET /demo4jsp_jdbc/Logout.jsp HTTP/1.1" 404 740
+0:0:0:0:0:0:0:1 - - [20/Feb/2021:13:38:04 +0530] "GET /demo4jsp_jdbc/login.jsp HTTP/1.1" 200 343
+0:0:0:0:0:0:0:1 - - [20/Feb/2021:13:38:16 +0530] "POST /demo4jsp_jdbc/validate.jsp HTTP/1.1" 200 211
+0:0:0:0:0:0:0:1 - - [20/Feb/2021:13:38:19 +0530] "GET /demo4jsp_jdbc/logout.jsp HTTP/1.1" 200 176

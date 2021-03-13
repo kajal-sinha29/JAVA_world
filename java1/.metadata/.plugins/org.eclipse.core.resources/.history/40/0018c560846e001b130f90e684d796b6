@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register website</title>
+</head>
+<body bgcolor = "green">
+
+<form action = "registerservlet" method = "post">
+<h2>ENTER YOUR DETAILS HERE.....!!!!!!</h2>
+<p><h3>Enter your Name<input type = "text" name = "name"></h3><br>
+<p><h3>Enter your Mobile no<input type = "text" name = "mob_no"></h3><br>
+<p><h3>Enter Password<input type = "text" name = "pwd"></h3>
+<input type = "submit" value = "SUBMIT">
+
+</form>
+
+</body>
+</html>

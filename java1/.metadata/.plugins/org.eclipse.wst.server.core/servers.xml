@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v9.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v9.0 Server at localhost" name="Tomcat v9.0 Server at localhost" runtime-id="Apache Tomcat v9.0" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="14">
+    <list key="modules" value0="TestProject::org.eclipse.jst.jee.server:TestProject::jst.web::2.5" value1="Login_Page::org.eclipse.jst.jee.server:Login_Page::jst.web::2.5" value2="Dynamic_Login::org.eclipse.jst.jee.server:Dynamic_Login::jst.web::2.5" value3="Maths::org.eclipse.jst.jee.server:Maths::jst.web::2.5" value4="demo1jsp::org.eclipse.jst.jee.server:demo1jsp::jst.web::2.5" value5="demo2jsp::org.eclipse.jst.jee.server:demo2jsp::jst.web::2.5" value6="Calculator_jsp::org.eclipse.jst.jee.server:Calculator_jsp::jst.web::2.5" value7="JSP_JDBC::org.eclipse.jst.jee.server:JSP_JDBC::jst.web::2.5"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v9.0 Server at localhost (2)-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v9.0 Server at localhost (2)" name="Tomcat v9.0 Server at localhost (2)" runtime-id="Apache Tomcat v9.0" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="1">
+    <list key="modules" value0="TestProject::org.eclipse.jst.jee.server:TestProject::jst.web::2.5"/>
+  </server>
+</servers>

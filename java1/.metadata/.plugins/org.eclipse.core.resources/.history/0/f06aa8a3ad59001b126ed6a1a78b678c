@@ -1,0 +1,67 @@
+package calculator;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.FlowLayout;
+
+import javax.swing.JLabel;
+import javax.swing.JButton;
+import javax.swing.JTextField;
+import javax.swing.JFrame;
+
+public class LoginPage extends JFrame implements ActionListener{
+	
+	
+	JLabel l1,l2;
+	JTextField t1,t2,t3;
+	JButton add, sub, mul, div, clear;
+
+	
+	public LoginPage()
+	{
+		
+		this.setLayout(new FlowLayout());
+		
+		l1 = new JLabel("Enter first no: ");
+		t1 = new JTextField(20);
+		l2 = new JLabel("Enter second number");
+		t2 = new JTextField(20);
+		add = new JButton("SUM");
+		sub = new JButton("Difference");
+		mul = new JButton("Multiplication");
+		div = new JButton("Division");
+		clear = new JButton("Clear");
+		
+		
+		this.add(l1);
+		this.add(t1);
+		this.add(l2);
+		this.add(t2);
+		this.add(add);
+		this.add(sub);
+		this.add(mul);
+		this.add(div);
+		this.add(clear);
+		
+		
+		add.addActionListener(this);
+		sub.addActionListener(this);
+		mul.addActionListener(this);
+		div.addActionListener(this);
+		clear.addActionListener(this);
+		
+	}
+	
+	public void actionPerformed(ActionEvent e)
+	{
+		
+		if(e.getSource()==add)
+		{
+		 t3.setText(t1.getText()+t2.getText());
+		}
+		
+		
+		
+		
+	}
+}

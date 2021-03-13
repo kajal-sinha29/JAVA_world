@@ -1,0 +1,34 @@
+package maths;
+import java.util.Scanner;
+import java.lang.Math;
+public class RangePrimeNumber {
+	
+	public static void main(String args[])
+	{
+		int n;
+		int root;
+		int flag = 0;
+		
+		Scanner sc = new Scanner(System.in);
+	
+				System.out.println("Enter the number....");
+		       n = sc.nextInt();
+		       
+		       for(int j = 2;j<=n;j=j+2)
+		       {
+		    	   root = (int) Math.sqrt(j);
+		    	   for(int i=2;i<root;i++)
+		    	   {
+		    		   if(j%i ==0)
+		    		   {
+		    		   flag = 1;
+		    		   break;
+		    	   }
+		       }
+	
+	              if(flag==0)
+	            	  System.out.println(j);
+		
+	}
+
+}

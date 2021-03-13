@@ -1,0 +1,48 @@
+package Chap1;
+
+public class Chn {
+	
+	public static void main(String args[])
+	{
+		
+		int n=5;
+		
+		// FOR C
+		for(int i=1;i<=n;i++)
+		{
+			System.out.print("* ");
+		}
+		for(int j=1;j<=n;j++)
+		{
+			System.out.println("*");
+		}
+		for(int k=n;k<=n+n;k++)
+		{
+			System.out.print("* ");
+		} 
+		
+		//FOR H
+		
+		for(int i=0;i<n;i++)
+		{
+			System.out.print("* ");
+			for(int j=0;j<5;j++)
+			{
+				if((j==n-1)||(i==n/2))
+					System.out.print("* ");
+				
+				else
+					System.out.print(" ");
+			}
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package maths;
+
+public class Coins {
+	
+	public static void main(String args[])
+	{
+		int n,i,j;
+		n=10;
+		
+		for(i=1;i<=n;i=i++)
+		{
+			for(j=2;j<=n;j=j++)
+			{
+				System.out.println("head"+j);
+			}
+			System.out.println("tail"+i);
+		}
+	}
+
+}

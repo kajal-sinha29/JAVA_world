@@ -1,0 +1,12 @@
+127.0.0.1 - - [19/Feb/2021:00:48:05 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [19/Feb/2021:00:48:06 +0530] "GET /Calculator_jsp/input_form.html HTTP/1.1" 200 597
+127.0.0.1 - - [19/Feb/2021:00:53:47 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [19/Feb/2021:00:53:48 +0530] "GET /Calculator_jsp/input_form.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Feb/2021:00:54:01 +0530] "GET /Calculator_jsp/area.jsp?1st=20&2nd=5&a1=4 HTTP/1.1" 500 2065
+127.0.0.1 - - [19/Feb/2021:01:03:35 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [19/Feb/2021:01:03:36 +0530] "GET /Calculator_jsp/input_form.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Feb/2021:01:03:47 +0530] "GET /Calculator_jsp/area.jsp?1st=1&2nd=2&a1=1 HTTP/1.1" 200 151
+0:0:0:0:0:0:0:1 - - [19/Feb/2021:01:03:55 +0530] "GET /Calculator_jsp/area.jsp?1st=1&2nd=2&a1=1 HTTP/1.1" 200 151
+0:0:0:0:0:0:0:1 - - [19/Feb/2021:01:04:11 +0530] "GET /Calculator_jsp/area.jsp?1st=6&2nd=2&a1=2 HTTP/1.1" 200 151
+0:0:0:0:0:0:0:1 - - [19/Feb/2021:01:04:20 +0530] "GET /Calculator_jsp/area.jsp?1st=6&2nd=2&a1=3 HTTP/1.1" 200 152
+0:0:0:0:0:0:0:1 - - [19/Feb/2021:01:04:38 +0530] "GET /Calculator_jsp/area.jsp?1st=6&2nd=2&a1=4 HTTP/1.1" 200 151

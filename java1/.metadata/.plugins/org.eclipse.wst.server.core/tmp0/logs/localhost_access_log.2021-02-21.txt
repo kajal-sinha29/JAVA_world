@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [21/Feb/2021:13:09:10 +0530] "GET /demo4jsp_jdbc/login.jsp HTTP/1.1" 200 343
+0:0:0:0:0:0:0:1 - - [21/Feb/2021:13:09:48 +0530] "POST /demo4jsp_jdbc/validate.jsp HTTP/1.1" 500 271

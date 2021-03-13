@@ -1,0 +1,3 @@
+127.0.0.1 - - [10/Feb/2021:16:12:24 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [10/Feb/2021:16:12:28 +0530] "GET /TestProject/test.html HTTP/1.1" 200 314
+0:0:0:0:0:0:0:1 - - [10/Feb/2021:16:12:36 +0530] "GET /TestProject/GreetServlet?uname=k HTTP/1.1" 200 18

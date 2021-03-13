@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welocome website</title>
+</head>
+<body bgcolor = "cyan">
+
+<h1><B><i>!!!!!!!!!!!WELCOME TO THIS SHOPPING WORLD!!!!!!!!!</i></B></h1>
+
+<h3>For new user click on<a href = register.html>signup</a></h3><br>
+<h3>For Login click on<a href = login.html>login</a></h3>
+
+</body>
+</html>
